@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%; /* Adjust the height as needed */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #5C8BA7 100%);
+  
+}
+
+#navbar-custom {
+  font-size: 1.5rem; 
+  padding: 1rem 2rem;
+  color:black;
+}
+
+#navbar-custom .navbar-brand {
+  font-size: 2rem; 
+  color: black;
+}
+
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+
+.scrolled {
+  padding: 0px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.intro{
+  font-size: 3rem;
+}
