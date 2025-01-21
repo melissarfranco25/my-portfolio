@@ -43,8 +43,11 @@ function App() {
         <div className="gradient-overlay"></div>
       </section>
       
-      <section style={skillsStyle}>
-       <p>work in progress</p>
+      <section style={skillsStyle} id="about">
+        <div style={{ padding: 110, textAlign: "left" }}>
+            <h1>About Me</h1>
+            <p>Hello! I'm a senior at UNC Charlotte pursuing a B.S. in Computer Science, with interest in data engineering and analytics. I am also an Early Entry Graduate Student, working toward my advanced degree while completing my undergraduate studies. Last summer, I had the amazing opportunity to intern as a Data Engineering Intern at The Hartford, where I gained hands-on experience in building data visualizations and optimizing data workflows.<br/><br /> I'm passionate about leveraging data to solve real-world problems and continuously improving my skills to make a meaningful impact in the tech industry. Let’s connect and talk all things tech, data, and innovation!</p>
+        </div>
       </section>
     </div>
   )
