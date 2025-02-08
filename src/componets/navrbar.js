@@ -33,7 +33,7 @@ function NavBar() {
                 <Container>
                 <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
                 <Nav className="me-auto justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#intro">Home</Nav.Link>
                     <Nav.Link href="#about">About Me</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
                 </Nav>

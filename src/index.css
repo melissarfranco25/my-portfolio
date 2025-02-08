@@ -13,14 +13,6 @@ code {
 }
 
 
-/* .gradient-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30%; /* Adjust the height as needed */
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #5C8BA7 100%); */
-
 #navbar-custom {
   font-size: 1.5rem; 
   padding: 1rem 2rem;
@@ -48,4 +40,9 @@ nav.navbar {
 
 .intro{
   font-size: 3rem;
+}
+
+#projects, #projects div{
+  color:black;
+  background-color: white;
 }

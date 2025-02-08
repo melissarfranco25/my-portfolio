@@ -35,7 +35,7 @@ function App() {
       <section style={introStyle}>
         <NavBar />
 
-        <div style={{ padding: 110, textAlign: "left" }} className="intro">
+        <div style={{ padding: 110, textAlign: "left" }} className="intro" id="intro">
             <h1>Welcome! I am Melissa Rivera</h1>
             <Type />
         </div>
@@ -49,6 +49,17 @@ function App() {
             <p>Hello! I'm a senior at UNC Charlotte pursuing a B.S. in Computer Science, with interest in data engineering and analytics. I am also an Early Entry Graduate Student, working toward my advanced degree while completing my undergraduate studies. Last summer, I had the amazing opportunity to intern as a Data Engineering Intern at The Hartford, where I gained hands-on experience in building data visualizations and optimizing data workflows.<br/><br /> I'm passionate about leveraging data to solve real-world problems and continuously improving my skills to make a meaningful impact in the tech industry. Let’s connect and talk all things tech, data, and innovation!</p>
         </div>
       </section>
+      <br/><br/>
+      <section style={skillsStyle} id="projects">
+        <div style={{ padding: 110, textAlign: "left" }}>
+            <h1>Projects</h1>
+            <ul>
+              <li>Data Mining: Project 1 Exploring Impacts of Lifestyle Factors on Anxiety Attack Severity Across Age Groups <a href="https://melissarfranco25.github.io/melissarfranco25.github.io-Project1/" target="_blank">LINK</a></li>
+            </ul>
+        </div>
+      </section>
+
+
     </div>
   )
 }
